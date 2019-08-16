@@ -1,0 +1,20 @@
+* {
+  @extend %inital-setting;
+
+  &::after {
+    @extend %inital-setting;
+  }
+
+  &::before {
+    @extend %inital-setting;
+  }
+}
+
+html {
+  // This defines what 1rem is
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
