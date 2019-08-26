@@ -1,0 +1,54 @@
+/**********************************
+*!          HEADER 
+**********************************/
+
+/**********************************
+*?           LOGO 
+*/
+.logo {
+  height: 3.25rem;
+}
+
+/**********************************
+*?          SEARCH 
+*/
+.search {
+  //   TODO
+  &__input {
+    //   TODO
+  }
+  &__button {
+    //   TODO
+  }
+  &__icon {
+    height: 2rem;
+    width: 2rem;
+  }
+}
+
+/**********************************
+*?      USER NAVIGATION 
+*/
+.user-nav {
+  //   TODO
+  &__icon-box {
+    //   TODO
+  }
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+  &__notification {
+    //   TODO
+  }
+  &__user {
+    //   TODO
+    &-photo {
+      height: 3.75rem;
+      border-radius: 50%;
+    }
+    &-name {
+      //   TODO
+    }
+  }
+}

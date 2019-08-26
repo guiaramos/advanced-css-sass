@@ -14,10 +14,59 @@
     <title>trillo &mdash; Your all-in-one booking app</title>
   </head>
   <body>
+    <!-- Container for all the contents -->
     <div class="container">
+      <!-- Header Start   -->
       <header class="header">
-        Header part
+        <!-- Logo -->
+        <img src="./img/logo.png" alt="trillo logo" class="logo" />
+
+        <!-- Search -->
+        <form action="#" class="search">
+          <input
+            type="text"
+            class="search__input"
+            placeholder="Search hotels"
+          />
+          <button class="search__button">
+            <svg class="search__icon">
+              <use xlink:href="./img/sprite.svg#icon-magnifying-glass"></use>
+            </svg>
+          </button>
+        </form>
+
+        <!-- User Navigation -->
+        <nav class="user-nav">
+          <!-- Bookmark -->
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./img/sprite.svg#icon-bookmark"></use>
+            </svg>
+            <span class="user-nav__notification">7</span>
+          </div>
+
+          <!-- Chat -->
+          <div class="user-nav__icon-box">
+            <svg class="user-nav__icon">
+              <use xlink:href="./img/sprite.svg#icon-chat"></use>
+            </svg>
+            <span class="user-nav__notification">13</span>
+          </div>
+
+          <!-- User -->
+          <div class="user-nav__user">
+            <img
+              src="https://avatars0.githubusercontent.com/u/49703106?v=4"
+              alt="User photo"
+              class="user-nav__user-photo"
+            />
+            <span class="user-nav__user-name">Guilherme</span>
+          </div>
+        </nav>
       </header>
+      <!-- Header End -->
+
+      <!-- Container Body Start -->
       <div class="content">
         <nav class="sidebar">
           Navigation
@@ -26,6 +75,8 @@
           Hotel View
         </main>
       </div>
+      <!-- Container Body End  -->
     </div>
+    <!-- Container End -->
   </body>
 </html>

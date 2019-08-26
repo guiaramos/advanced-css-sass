@@ -28,6 +28,9 @@ Grey dark 3: #999
   --color-grey-dark-3: #999;
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3); }
 
+/**********************************
+*!      INITIAL SETTING
+**********************************/
 * {
   margin: 0;
   padding: 0; }
@@ -74,3 +77,30 @@ body {
   background-color: #fff;
   background-color: orangered;
   flex: 1; }
+
+/**********************************
+*!          HEADER 
+**********************************/
+/**********************************
+*?           LOGO 
+*/
+.logo {
+  height: 3.25rem; }
+
+/**********************************
+*?          SEARCH 
+*/
+.search__icon {
+  height: 2rem;
+  width: 2rem; }
+
+/**********************************
+*?      USER NAVIGATION 
+*/
+.user-nav__icon {
+  height: 2.25rem;
+  width: 2.25rem; }
+
+.user-nav__user-photo {
+  height: 3.75rem;
+  border-radius: 50%; }
