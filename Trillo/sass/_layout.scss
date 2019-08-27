@@ -1,4 +1,10 @@
-// Page containers
+/**********************************
+*!          PAGE COMPONENTS
+**********************************/
+
+/**********************************
+*?           CONTAINER 
+*/
 
 .container {
   max-width: 120rem;
@@ -9,20 +15,40 @@
   min-height: 50rem; //! TEST
 }
 
+/**********************************
+*?           HEADER 
+*/
+
 .header {
+  font-size: 1.4rem;
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+/**********************************
+*?           CONTENT 
+*/
 
 .content {
   display: flex;
 }
 
+/**********************************
+*?           SIDEBAR 
+*/
+
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%;
 }
+
+/**********************************
+*?           HOTEL VIEW 
+*/
 
 .hotel-view {
   background-color: #fff;
